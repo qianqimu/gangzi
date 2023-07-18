@@ -1,166 +1,505 @@
-﻿
+//复制自此一键配置接口http://8.210。232.168/zyy.json
+//点击设置按钮，在设置的"最下方"找到一键配置功能，在软件接口中，输入下方接口地址，点击确定即可,找不到这个“一键配置”功能就多找找，设置里就那几个功能。
 {
-"spider":"https://raw.githubusercontent.com/qianqimu/gangzi/main/0723.jar"，
+ "sites": {
+   "default":1，
+   "data":[
+       
+       {
+    "key": "主页"，
+    "name": "主页"，
+    "api": "http://iqy.ax88.site/api.php/provide/vod/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 1
+  }，
+   {
+    "key": "youku"，
+    "name": "youku"，
+    "api": "https://api.ukuapi.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 2
+  }，
+  {
+    "key": "七喜"，
+    "name": "七喜"，
+    "api": "https://7xi.tv/api.php//provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 37
+  }，
+  
+    
+  {
+    "key": "土豪"，
+    "name": "土豪"，
+    "api": "https://www.tuhao.tv/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 34
+  }，
+    {
+    "key": "官方"，
+    "name": "官方"，
+    "api": "https://www.zycaiji.net:7788/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": "http://27.124.4.42:4567/jhjson/ceshi.php?url="，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 35
+  }，
+
+   
+  {
+    "key": "非凡资源"，
+    "name": "非凡资源"，
+    "api": "http://www.ffzy.tv/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": "https://ffzyplayer.com/?url="，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 36
+  }，
+  {
+    "key": "明帝影视"，
+    "name": "明帝"，
+    "api": "https://ys.md214.cn/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 3
+  }，
+   {
+    "key": "快车资源"，
+    "name": "快车资源"，
+    "api": "https://caiji.kczyapi.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1,
+    "id": 4
+  },
+  {
+    "key": "无尽资源",
+    "name": "无尽资源",
+    "api": "https://api.wujinapi.me/api.php/provide/vod/",
+    "download": "",
+    "jiexiUrl": "",
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 5
+  }，
+  {
+    "key": "天空影院"，
+    "name": "天空影院"，
+    "api": "https://api.tiankongapi.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 6
+  }，
+  {
+    "key": "卧龙资源"，
+    "name": "卧龙资源"，
+    "api": "https://collect.wolongzyw.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 7
+  }，
+  {
+    "key": "影图影视"，
+    "name": "影图影视"，
+    "api": "https://cj.vodimg.top/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 8
+  }，
+  {
+    "key": "南国资源"，
+    "name": "南国资源"，
+    "api": "http://api.nguonphim.tv/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 9
+  }，
+  {
+    "key": "飞速资源"，
+    "name": "飞速资源"，
+    "api": "https://www.feisuzyapi.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 10
+  }，
+  {
+    "key": "ikun资源"，
+    "name": "ikun资源"，
+    "api": "https://ikunzyapi.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 11
+  }，
+   {
+    "key": "天堂资源"，
+    "name": "天堂资源"，
+    "api": "http://vipmv.cc/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 12
+  }， 
+  {
+    "key": "映迷影院"，
+    "name": "映迷影院"，
+    "api": "https://www.inmi.app/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 13
+  }， 
+   {
+    "key": "1080资源"，
+    "name": "1080资源"，
+    "api": "https://1080p.tv/api.php/provide/vod"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 14
+  }，   
+  {
+    "key": "易看资源"，
+    "name": "易看资源"，
+    "api": "https://api.yikanapi.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 15
+  }，
+  {
+    "key": "酷点资源"，
+    "name": "酷点资源"，
+    "api": "https://kudianzy.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 16
+  }，  
+   {
+    "key": "忆梦资源"，
+    "name": "忆梦资源"，
+    "api": "http://anltv.cn/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 17
+  }， 
+  {
+    "key": "樱花资源"，
+    "name": "樱花资源"，
+    "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 18
+  }，
+  {
+    "key": "TOM资源"，
+    "name": "TOM资源"，
+    "api": "https://api.tomcaiji.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 19
+  }，
+  {
+    "key": "闪电资源"，
+    "name": "闪电资源"，
+    "api": "http://sdzyapi.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 20
+  }，
+  {
+    "key": "FOX资源"，
+    "name": "FOX资源"，
+    "api": "https://api.foxzyapi.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 21
+  }， 
+  {
+    "key": "红牛资源"，
+    "name": "红牛资源"，
+    "api": "https://www.hongniuzy2.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 22
+  }，        
+  {
+    "key": "77韩剧"，
+    "name": "77韩剧"，
+    "api": "https://www.77hanju.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 23
+  }，
+   {
+    "key": "乐活"，
+    "name": "乐活"，
+    "api": "https://lehootv.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 24
+  }，
+  {
+    "key": "234影视"，
+    "name": "234影视"，
+    "api": "https://www.knyu.net/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 25
+  }，
+  {
+    "key": "速播"，
+    "name": "速播"，
+    "api": "https://subocaiji.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 26
+  }，
+   {
+    "key": "豌豆"，
+    "name": "豌豆"，
+    "api": " https://ks.wandouzy.cc/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 27
+  }，
+  {
+    "key": "蜜蜂"，
+    "name": "蜜蜂"，
+    "api": "https://www.beeyao.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 28
+  }，
+    {
+    "key": "超多"，
+    "name": "超多"，
+    "api": "https://www.ifengying.cn/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 29
+  }，
+  
+ 
+  {
+    "key": "TVB云播"，
+    "name": "TVB云播"，
+    "api": "  http://www.tvyb03.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 31
+  }，
+  {
+    "key": "快播"，
+    "name": "快播"，
+    "api": "https://www.kuaibozy.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 31
+  }，
+  
+ 
+  {
+    "key": "人人"，
+    "name": "人人"，
+    "api": "  https://www.rrvipw.com/api.php/provide/vod/"，
+    "download": ""，
+    "jiexiUrl": ""，
+    "group": "默认"，
+    "status": true，
+    "isActive": true，
+    "type": 1，
+    "id": 33
+  }
+  
+
+]}，
+"iptv":  {
+  "default":1，
+   "data":[
 
 
-
-"lives":[{"group":"redirect"，"channels":[{"name":"redirect"，"urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3FpYW5xaW11L2dhbmd6aS9tYWluLzA3MjMuamFy"]}]}]，
-
-
-"sites":[
-
-{"key": "Kuaikan"，"name": " 🎴吾爱快看(SP)"，"type": 3，"api": "csp_Kuaikan"，"searchable": 1，"quickSearch": 1，"filterable": 1}，
-
-{"key":"ttzy"， "name":"👰天堂资源(SP)"， "type":1，"api":"http://vipmv.cc/api.php/provide/vod/"，"searchable":1， "quickSearch":1}
-
-]，
-
-
-
-"parses": [
-{"name": "解析聚合"，"type": 3，"url": "Demo"}，
-{"name": "Json并发"，"type": 2，"url": "Parallel"}， 
-{"name": "Json轮询"，"type": 2，"url": "Sequence"}， 
-{"name": "GGTV快速"，"type": 1，"url": "https://play.fuqizhishi.com/ganggang/API.php?appkey=QQ172598364&url="}， 
-{"name": "OKjx综合"，"type": 0，"url": "https://okjx.cc/?url="}
-]，
-
-"flags": ["youku"， "qq"， "iqiyi"， "imgo"， "xueren"， "m1905"， "qiyi"， "letv"， "sohu"， "tudou"， "pptv"， "dbm3u8"， "mgtv"， "wasu"， "bilibili"， "le"， "duoduozy"， "renrenmi"， "xigua"， "优酷"， "西瓜"， "乐视"， "芒果"， "腾讯"， "爱奇艺"， "奇艺"， "ltnb"， "rx"， "CL4K"， "xfyun"， "wuduzy"， "哔哩哔哩"， "哔哩"]，
-	"ijk": [{
-		"group": "软解码"，
-		"options": [{
-			"category": 4，
-			"name": "opensles"，
-			"value": "0"
-		}， {
-			"category": 4，
-			"name": "overlay-format",
-			"value": "842225234"
-		}, {
-			"category": 4,
-			"name": "framedrop",
-			"value": "1"
-		}, {
-			"category": 4,
-			"name": "soundtouch",
-			"value": "1"
-		}, {
-			"category": 4,
-			"name": "start-on-prepared",
-			"value": "1"
-		}, {
-			"category": 1,
-			"name": "http-detect-range-support",
-			"value": "0"
-		}, {
-			"category": 1,
-			"name": "fflags",
-			"value": "fastseek"
-		}, {
-			"category": 2,
-			"name": "skip_loop_filter",
-			"value": "48"
-		}, {
-			"category": 4,
-			"name": "reconnect",
-			"value": "1"
-		}, {
-			"category": 4,
-			"name": "enable-accurate-seek",
-			"value": "0"
-		}, {
-			"category": 4,
-			"name": "mediacodec",
-			"value": "0"
-		}, {
-			"category": 4,
-			"name": "mediacodec-auto-rotate",
-			"value": "0"
-		}, {
-			"category": 4,
-			"name": "mediacodec-handle-resolution-change",
-			"value": "0"
-		}, {
-			"category": 4,
-			"name": "mediacodec-hevc",
-			"value": "0"
-		}, {
-			"category": 1,
-			"name": "dns_cache_timeout",
-			"value": "600000000"
-		}]
-	}, {
-		"group": "硬解码",
-		"options": [{
-			"category": 4,
-			"name": "opensles",
-			"value": "0"
-		}, {
-			"category": 4,
-			"name": "overlay-format",
-			"value": "842225234"
-		}, {
-			"category": 4,
-			"name": "framedrop",
-			"value": "1"
-		}, {
-			"category": 4,
-			"name": "soundtouch",
-			"value": "1"
-		}, {
-			"category": 4,
-			"name": "start-on-prepared",
-			"value": "1"
-		}, {
-			"category": 1,
-			"name": "http-detect-range-support",
-			"value": "0"
-		}, {
-			"category": 1,
-			"name": "fflags",
-			"value": "fastseek"
-		}, {
-			"category": 2,
-			"name": "skip_loop_filter",
-			"value": "48"
-		}, {
-			"category": 4,
-			"name": "reconnect",
-			"value": "1"
-		}, {
-			"category": 4,
-			"name": "enable-accurate-seek",
-			"value": "0"
-		}, {
-			"category": 4,
-			"name": "mediacodec",
-			"value": "1"
-		}, {
-			"category": 4,
-			"name": "mediacodec-auto-rotate",
-			"value": "1"
-		}, {
-			"category": 4,
-			"name": "mediacodec-handle-resolution-change",
-			"value": "1"
-		}, {
-			"category": 4,
-			"name": "mediacodec-hevc",
-			"value": "1"
-		}, {
-			"category": 1,
-			"name": "dns_cache_timeout",
-			"value": "600000000"
-		}]
-	}],
-
-
-
-
-
-
-"wallpaper":"http://52bsj.vip:82/late",
-
-
-"ads":["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","mc.usihnbcq.cn","mg.g1mm3d.cn","mscs.svaeuzh.cn","cnzz.hhttm.top","tp.vinuxhome.com","cnzz.mmstat.com","www.baihuillq.com","s23.cnzz.com","z3.cnzz.com","c.cnzz.com","stj.v1vo.top","z12.cnzz.com","img.mosflower.cn","tips.gamevvip.com","ehwe.yhdtns.com","xdn.cqqc3.com","www.jixunkyy.cn","sp.chemacid.cn","hm.baidu.com","s9.cnzz.com","z6.cnzz.com","um.cavuc.com","mav.mavuz.com","wofwk.aoidf3.com","z5.cnzz.com","xc.hubeijieshikj.cn","tj.tianwenhu.com","xg.gars57.cn","k.jinxiuzhilv.com","cdn.bootcss.com","ppl.xunzhuo123.com","xomk.jiangjunmh.top","img.xunzhuo123.com","z1.cnzz.com","s13.cnzz.com","xg.huataisangao.cn","z7.cnzz.com","xg.huataisangao.cn","z2.cnzz.com","s96.cnzz.com","q11.cnzz.com","thy.dacedsfa.cn","xg.whsbpw.cn","s19.cnzz.com","z8.cnzz.com","s4.cnzz.com","f5w.as12df.top","ae01.alicdn.com","www.92424.cn","k.wudejia.com","vivovip.mmszxc.top","qiu.xixiqiu.com","cdnjs.hnfenxun.com","cms.qdwght.com"]
+   {
+    "name": "俊于直播"，
+    "url": "http://home.jundie.top:81/Cat/tv/live.txt"，
+    "epg": "http://epg.112114.xyz"，
+    "isActive": true，
+    "id": 4
+  }  
+]}，
+  "analyzes":  {"default":1，
+   "data":
+[
+  {
+    "name": "777"，
+    "url": "https://jx.777jiexi.com/player/?url="，
+    "isActive": true，
+    "id": 1
+  }，
+  {
+    "name": "虾米"，
+    "url": "https://jx.xmflv.com/?url="，
+    "isActive": true，
+    "id": 2
+  }，
+  {
+    "name": "json"，
+    "url": "https://jx.bozrc.com:4433/player/?url="，
+    "isActive": true，
+    "id": 3
+  }，
+  {
+    "name": "诺讯"，
+    "url": "https://www.nxflv.com/?url="，
+    "isActive": true，
+    "id": 4
+  }，
+  {
+    "name": "夜幕"，
+    "url": "https://www.yemu.xyz/?url="，
+    "isActive": true，
+    "id": 5
+  }，
+  {
+    "name": "战狼"，
+    "url": "https://jx.zhanlangbu.com/?url="，
+    "isActive": true，
+    "id": 6
+  }
+]
+}
 }
