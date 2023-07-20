@@ -1,12 +1,12 @@
 
 {
-	"spider": "./0723.jar",
+	"spider": "/0723.jar"，
 	"wallpaper": "https://tool.weetai.cn/api"，
 	"lives": [{
 		"group": "redirect"，
 		"channels": [{
 			"name": "live"，
-			"urls": ["proxy://do=live&type=txt&ext=.live.txt"]
+			"urls": ["proxy://do=live&type=txt&ext=./live.txt"]
 		}]
 	}]，
 
