@@ -2033,10 +2033,3 @@ TVB J2 HD,http://120.84.96.152:808/hls/86/index.m3u8
 西藏,http://39.135.32.10:6610/000000001000/xizangstv/1.m3u8?IASHttpSessionId=OTT?zxicd
 藏语,http://111.40.196.9/PLTV/88888888/224/3221225676/index.m3u8?zxicd
 西藏影文化,rtmp://113.62.170.99:1935/live/tvchannel2?zxicd
-
-打开
-
-复制
-
-百度
-「网盘」
