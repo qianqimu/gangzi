@@ -1,16 +1,16 @@
 
 {
-  "spider":"http://ftp6284928.host108.abeiyun.cn/jar/tvbox.txt;md5;a4bf71ea71185b7815d3e94d591a7c51",
-  "wallpaper":"http://www.kf666888.cn/api/tvbox/img",
+  "spider":"https://raw.githubusercontent.com/qianqimu/gangzi/main/0723.jar"，
+  "wallpaper":"http://www.kf666888.cn/api/tvbox/img"，
   "lives":[{
-    "name":"live",
-    "type":0,
-    "url":"http://ftp6284928.host108.abeiyun.cn/live/live.txt",
-    "playerType":1,
-    "ua":"okhttp/3.12.13",
-    "epg":"http://epg.112114.xyz/?ch={name}&date={date}",
+    "name":"live"，
+    "type":0，
+    "url":"https://raw.githubusercontent.com/qianqimu/gangzi/main/live.txt"，
+    "playerType":1，
+    "ua":"okhttp/3.12.13"，
+    "epg":"http://epg.112114.xyz/?ch={name}&date={date}"，
     "logo":"https://epg.112114.xyz/logo/{name}.png"
-  }],
+  }]，
 
 "sites":[
 {"key":"csp_77"，"name":"👒千绮沐"，"type":3，"api":"csp_Kunyu77"，"searchable":1，"quickSearch":1，"filterable":1}，
