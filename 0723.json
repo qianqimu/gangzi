@@ -1,6 +1,6 @@
 
 {
-	"spider": "https://gitee.com/qianqimu/jigang/raw/master/jar/zy.jar",
+	"spider": "https://raw.githubusercontent.com/qianqimu/gangzi/main/fm.jar",
 	"wallpaper": "https://tool.weetai.cn/api",
 	"lives": [{
 		"group": "redirect",
