@@ -1,39 +1,39 @@
 ﻿
 {
-"spider":"clan://TVBox/0723.jar",
+"spider":"https://gitlab.com/qianqimu/gangzi/-/raw/main/0723.jar"，
 
 
 
-"lives":[{"group":"redirect","channels":[{"name":"redirect","urls":["proxy://do=live&type=txt&ext=Y2xhbjovL1RWQm94L2xpdmUudHh0"]}]}],
+"lives":[{"group":"redirect"，"channels":[{"name":"redirect"，"urls":["proxy://do=live&type=txt&ext=Y2xhbjovL1RWQm94L2xpdmUudHh0"]}]}]，
 
 
 "sites":[
 
-{"key": "Kuaikan","name": " 🎴吾爱快看(SP)","type": 3,"api": "csp_Kuaikan","searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key": "Kuaikan"，"name": " 🎴吾爱快看(SP)"，"type": 3，"api": "csp_Kuaikan"，"searchable": 1，"quickSearch": 1，"filterable": 1}，
 
-{"key":"ttzy", "name":"👰天堂资源(SP)", "type":1,"api":"http://vipmv.cc/api.php/provide/vod/","searchable":1, "quickSearch":1}
+{"key":"ttzy"， "name":"👰天堂资源(SP)"， "type":1，"api":"http://vipmv.cc/api.php/provide/vod/"，"searchable":1， "quickSearch":1}
 
-],
+]，
 
 
 
 "parses": [
-{"name": "解析聚合","type": 3,"url": "Demo"},
-{"name": "Json并发","type": 2,"url": "Parallel"}, 
-{"name": "Json轮询","type": 2,"url": "Sequence"}, 
-{"name": "GGTV快速","type": 1,"url": "https://play.fuqizhishi.com/ganggang/API.php?appkey=QQ172598364&url="}, 
-{"name": "OKjx综合","type": 0,"url": "https://okjx.cc/?url="}
-],
+{"name": "解析聚合"，"type": 3，"url": "Demo"}，
+{"name": "Json并发"，"type": 2，"url": "Parallel"}， 
+{"name": "Json轮询"，"type": 2，"url": "Sequence"}， 
+{"name": "GGTV快速"，"type": 1，"url": "https://play.fuqizhishi.com/ganggang/API.php?appkey=QQ172598364&url="}， 
+{"name": "OKjx综合"，"type": 0，"url": "https://okjx.cc/?url="}
+]，
 
-"flags": ["youku", "qq", "iqiyi", "imgo", "xueren", "m1905", "qiyi", "letv", "sohu", "tudou", "pptv", "dbm3u8", "mgtv", "wasu", "bilibili", "le", "duoduozy", "renrenmi", "xigua", "优酷", "西瓜", "乐视", "芒果", "腾讯", "爱奇艺", "奇艺", "ltnb", "rx", "CL4K", "xfyun", "wuduzy", "哔哩哔哩", "哔哩"],
+"flags": ["youku"， "qq"， "iqiyi"， "imgo"， "xueren"， "m1905"， "qiyi"， "letv"， "sohu"， "tudou"， "pptv"， "dbm3u8"， "mgtv"， "wasu"， "bilibili"， "le"， "duoduozy"， "renrenmi"， "xigua"， "优酷"， "西瓜"， "乐视"， "芒果"， "腾讯"， "爱奇艺"， "奇艺"， "ltnb"， "rx"， "CL4K"， "xfyun"， "wuduzy"， "哔哩哔哩"， "哔哩"]，
 	"ijk": [{
-		"group": "软解码",
+		"group": "软解码"，
 		"options": [{
-			"category": 4,
-			"name": "opensles",
+			"category": 4，
+			"name": "opensles"，
 			"value": "0"
-		}, {
-			"category": 4,
+		}， {
+			"category": 4，
 			"name": "overlay-format",
 			"value": "842225234"
 		}, {
