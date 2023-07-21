@@ -1,6 +1,6 @@
 
 {
-	"spider": "https://ghproxy.com/https://raw.githubusercontent.com/qianqimu/gangzi/main/zy.jar"，
+	"spider": "https://raw.githubusercontent.com/qianqimu/gangzi/main/zy.jar"，
 	"wallpaper": "https://tool.weetai.cn/api"，
 	"lives": [{
 		"group": "redirect"，
