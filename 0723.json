@@ -5,46 +5,6 @@
 {"name":"俊于•综合","type":0,"url":"http://home.jundie.top:81/Cat/tv/live.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo": "https://epg.112114.xyz/logo/{name}.png"}],
 "wallpaper":"https://jianbian.chuqiuyu.tk",
 "sites":[
-{"key":"csp_77"，"name":"👒酷云七七┃本接口免费-🈲贩卖"，"type":3，"api":"csp_Kunyu77"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"dr_豆瓣"，"name":"🔍豆瓣"，"type":3，"api":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy2.min.js"，"searchable":0，"quickSearch":0，"filterable":1，"ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/drpy.js"}，
-{"key":"360"，"name":"💘360"，"type":3，"api":"csp_SP33"，"searchable":1，"quickSearch":1，"filterable":1，"changeable":0}，
-{"key":"农民"，"name":"🥝农民"，"type":3，"api":"csp_XBPQ"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/农民影视.json"}，
-{"key":"快看"，"name":"👀快看"，"type":3，"api":"csp_Kuaikan"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_Czsapp"，"name":"🏭厂长"，"type":3，"api":"csp_Czsapp"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_fantuan"，"name":"🍙饭团"，"type":3，"api":"csp_Fantuan"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"https://www.fantuan3.com"}，
-{"key":"csp_YQKAPP"，"name":"🌎一起看"，"type":3，"api":"csp_YQKAPP"，"playerType":2，"searchable":1，"quickSearch":1，"filterable":1，"ext":"https://api-aws.11ty.top"}，
-{"key":"影探"，"name":"👿影探"，"type":3，"api":"csp_AppYsV2"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"http://ytcms.lfytyl.com/api.php/app/"}，
-{"key":"狐狸"，"name":"🦊狐狸"，"type":3，"api":"csp_AppYsV2"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"https://www.kuin.one/api.php/app/"}，
-{"key":"爱迪"，"name":"🍟爱迪"，"type":3，"api":"csp_AppYsV2"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"https://api123.adys.app/xgapp.php/v3/"}，
-{"key":"鸭鸭"，"name":"🦆鸭鸭"，"type":3，"api":"csp_AppYsV2"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"https://yayayaaapp.ynf.icu/api.php/app/"}，
-{"key":"迷你库"，"name":"Ⓜ️迷你库"，"type":3，"api":"csp_AppYsV2"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"http://www.miniku.cc/xgapp.php/v1/"}，
-{"key":"新视觉"，"name":"✨新视觉"，"type":3，"api":"csp_XBPQ"，"searchable":1，"quickSearch":1，"filterable":1，"changeable":1，"ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/sub/新视觉影院.json"}，
-{"key":"csp_DiDuan"，"name":"📺低端"，"type":3，"api":"csp_Ddrk"，"searchable":1，"quickSearch":1，"filterable":0}，
-{"key":"csp_Dy1010"，"name":"⏺双十电影"，"type":3，"api":"csp_Dy1010"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_Bttoo"，"name":"✌两个BT"，"type":3，"api":"csp_Bttwoo"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_Lib"，"name":"🔷LibVio"，"type":3，"api":"csp_Libvio"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"https://www.libvio.fun/"}，
-{"key":"csp_AppMr"，"name":"👻明明影视"，"type":3，"api":"csp_AppMr"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_Zxzj"，"name":"🏠在线之家"，"type":3，"api":"csp_Zxzj"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"https://www.zxzj.pro/"}，
-{"key":"csp_Voflix"，"name":"🌀Voflix"，"type":3，"api":"csp_Voflix"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_Auete"，"name":"🐼奥特"，"type":3，"api":"csp_Auete"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_Ysgc"，"name":"🎥影视工厂"，"type":3，"api":"csp_Ysgc"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"https://www.ysgc.fun"}，
-{"key":"csp_Lgyy"，"name":"💧蓝光影院"，"type":3，"api":"csp_Lgyy"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"https://www.lgyy.vip"}，
-{"key":"csp_Anime1"，"name":"🌸动漫"，"type":3，"api":"csp_Anime1"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_Dm84"，"name":"🚌动漫巴士"，"type":3，"api":"csp_Dm84"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"Ying"，"name":"🌸樱花动漫"，"type":3，"api":"csp_Ying"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_Ysj"，"name":"📮异世界"，"type":3，"api":"csp_Ysj"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_Yj1211"，"name":"📽️在线直播"，"type":3，"api":"csp_Yj1211"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_WoGG"，"name":"👽玩偶哥哥"，"type":3，"api":"csp_WoGG"，"searchable":1，"quickSearch":1，"filterable":1，"changeable":0，"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd+4k|auto|fhd$$$http://tvfan.xxooo.cf/"}，
-{"key":"YiSo"，"name":"🆎易搜"，"type":3，"api":"csp_YiSo"，"searchable":1，"quickSearch":1，"filterable":0，"changeable":0，"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"}，
-{"key":"Zhaozy"，"name":"🦊找资源"，"type":3，"api":"csp_Zhaozy"，"searchable":1，"quickSearch":1，"filterable":0，"changeable":0，"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$yingshi$$$abcd1234"}，
-{"key":"PanSou"，"name":"📀盘搜"，"type":3，"api":"csp_PanSou"，"searchable":1，"quickSearch":1，"filterable":0，"changeable":0，"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"}，
-{"key":"UpYun"，"name":"☁️UP云搜"，"type":3，"api":"csp_UpYun"，"searchable":1，"quickSearch":1，"filterable":0，"changeable":0，"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"}，
-{"key":"PanSearch"，"name":"🙀盘搜索"，"type":3，"api":"csp_PanSearch"，"searchable":1，"quickSearch":1，"filterable":0，"changeable":0，"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"}，
-{"key":"Dovx"，"name":"😾七夜"，"type":3，"api":"csp_Dovx"，"searchable":1，"quickSearch":1，"filterable":0，"changeable":0，"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"}，
-{"key":"push_agent"，"name":"🍭推送"，"type":3，"api":"csp_Push"，"searchable":0，"quickSearch":0，"filterable":0，"ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"}，
-{"key":"csp_Cokemv"，"name":"🚗可乐(墙外)"，"type":3，"api":"csp_Cokemv"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_Nbys"，"name":"👑泥巴(墙外)"，"type":3，"api":"csp_NiNi"，"searchable":1，"quickSearch":1，"filterable":1}，
-{"key":"csp_trj"，"name":"🛫唐人街(墙外)"，"type":3，"api":"csp_Tangrenjie"，"searchable":1，"quickSearch":1，"filterable":1}，
 
 {"key":"dr_荐片"，"name":"荐片"，"type":3，"api":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/lib/drpy2.min.js"，"playerType":"1"，"searchable":1，"quickSearch":1，"filterable":1，"ext":"https://agit.ai/Yoursmile7/TVBox/raw/branch/master/js/荐片.js"}，
 {"key":"芸芸"，"name":"💢️芸芸"，"type":3，"api":"csp_XBPQ"，"searchable":1，"quickSearch":1，"filterable":0，"ext":"https://pan.shangui.cc/f/N07pUj/云云.json"}，
